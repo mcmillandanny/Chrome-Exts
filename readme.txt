@@ -1,0 +1,1 @@
+Weather Chrome Extension, that shows location and weather in the area.
