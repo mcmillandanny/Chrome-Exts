@@ -1,0 +1,19 @@
+{ 
+    "manifest_version":2,
+    "name": "Weather App",
+    "description": "Shows weather!",
+    "version": "1",
+    "author":"Danny McMillan",
+    "browser_action":{ 
+       "default_icon": "tab-icon.png",
+       "default_title": "Click to show weather!",
+       "default_popup": "popup.html"
+    },
+    "permissions": [ 
+      "geolocation",
+      "https://ajax.googleapis.com/",
+      "contentSettings",
+      "*://*.api.openweathermap.org/*",
+      "*://*.api.unsplash.com//*"
+    ]
+ }
